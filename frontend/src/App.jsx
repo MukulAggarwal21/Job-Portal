@@ -6,7 +6,7 @@ import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import { Toaster } from "react-hot-toast";
 import axios from "axios";
-import Navbar from "./components/Layout/Navbar";
+import Naavbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer";
 import Home from "./components/Home/Home";
 import Jobs from "./components/Job/Jobs";
@@ -40,7 +40,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <Naavbar />
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
